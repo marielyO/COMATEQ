@@ -11,7 +11,7 @@ $link = mysqli_connect('localhost', 'root', '', 'comateq080'); // Cambiar
   $nombre_coordinador = $_POST['coorname'];
     
   $stmt = mysqli_prepare($link, "INSERT INTO equipo (Nombre_Asociado, Nombre_Estudiantes1	, Nombre_Estudiantes2, Nombre_Estudiantes3, Puntuacion, Año_participacion, Nombre_Universidad, Nombre_Coordinador) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
-  mysqli_stmt_bind_param($stmt, 'ssssds', $team_name, $name1, $name2, $name3, $score, $participation_year, $nombre_universidad, $nombre_coordinador);
+  mysqli_stmt_bind_param($stmt, 'ssssdiss', $team_name, $name1, $name2, $name3, $score, $participation_year, $nombre_universidad, $nombre_coordinador);
   // Create connection
   $stmt->execute();
 
