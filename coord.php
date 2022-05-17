@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect('localhost', 'root', '', 'comateq080'); // Cambiar
+$link = mysqli_connect('localhost', 'root', 'marielyor', 'mariely123'); // Cambiar
 
   $id_coordenador = $_POST['idnumber'];
   $nombre_coordinador = $_POST['adminname'];
