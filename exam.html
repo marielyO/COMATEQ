@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Comateq Database</title>
+<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+<h1>Database for Comateq</h1>
+<h2>Designed by Mariely Ocasio Rodríguez and Abner Ortiz Román</h2>
+<h2>COMP4018</h2>
+</header>
+<p>
+<button class="btn"><a href="admin.html">Administrator</a></button>
+<button class="btn"><a href="problem.html">Problem</a></button>
+<button class="btn">Exam</button>
+<button class="btn"><a href="student.html">Student</a></button>
+<button class="btn"><a href="coord.html">Coordinator</a></button>
+<button class="btn"><a href="team.html">Team</a></button>
+<fieldset>
+<legend>Exam Information</legend>
+<form name="problem" method="post" action="exam.php" target="_blank"> 
+<ul>
+	<li><label for="form-name">University Name:</label><input type="text" name="uniname" id="Nombre_Universidad"></li>
+	<li><label for="form-coor">Coordinator Name:</label><input type="text" name="coorname" id="Nombre_Coordinador"></li>
+	<li><label for="form-admin">Administrator Name:</label><input type="text" name="adminname" id="Nombre_Administrador"></li>
+</ul>
+<input type="submit" name="Submit" id="Submit" value="Submit">
+<button type="submit" formaction="showexam.php">Show Exam database table</button>
+</form>
+</fieldset>
+</p>
+</body>
+</html>

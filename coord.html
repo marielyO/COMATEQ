@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Comateq Database</title>
+<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+<h1>Database for Comateq</h1>
+<h2>Designed by Mariely Ocasio Rodríguez and Abner Ortiz Román</h2>
+<h2>COMP4018</h2>
+</header>
+<p>
+<button class="btn"><a href="admin.html">Administrator</a></button>
+<button class="btn"><a href="problem.html">Problem</a></button>
+<button class="btn"><a href="exam.html">Exam</a></button>
+<button class="btn"><a href="student.html">Student</a></button>
+<button class="btn">Coordinator</button>
+<button class="btn"><a href="team.html">Team</a></button>
+<fieldset>
+<legend>Coordinator Information</legend>
+<form name="admin" method="post" action="coord.php" target="_blank">
+<ul>
+	<li><label for="form-id">Coordinator Id:</label><input type="text" name="idnumber" id="Num_id"></li>
+  	<li><label for="form-name">Name:</label><input type="text" name="adminname" id="Nombre"></li>
+  	<li><label for="form-lastname1">First Last Name:</label><input type="text" name="lastname1" id="ApellidoP"></li>
+  	<li><label for="form-lastname2">Second Last Name:</label><input type="text" name="lastname2" id="ApellidoM"></li>
+	<li><label for="form-email">Email:</label><input type="email" name="email" id="Email"></li>
+	<li><label for="form-name">University Name:</label><input type="text" name="uniname" id="Nombre_Universidad"></li>
+	<li><label for="form-team">Team Name:</label><input type="text" name="team" id="Nombre_Equipos"></li>
+	<li><label for="form-url">URL personal website:</label><input type="text" name="url" id="URL_Web"></li>
+</ul>
+<input type="submit" name="Submit" id="Submit" value="Submit">
+<button type="submit" formaction="showcoord.php">Show Coordinator database table</button>
+</form>
+</fieldset>
+</p>
+</body>
+</html>

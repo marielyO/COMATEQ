@@ -1,0 +1,19 @@
+header {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+body {
+	background-color: #f6f1de;
+}
+
+legend {
+	font-weight: bold ;
+}
+li {
+	list-style-type: square;
+}
