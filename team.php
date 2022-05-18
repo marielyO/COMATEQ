@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect('localhost', 'root', '', 'comateq080'); // Cambiar
+$link = mysqli_connect('localhost', 'marielyor', 'mariely123', 'comateq080'); // Cambiar
 
   $team_name = $_POST['teamname'];
   $name1 = $_POST['s1'];
