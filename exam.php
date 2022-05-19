@@ -11,5 +11,5 @@ $link = mysqli_connect('localhost', '****', '****', '****'); // Cambiar
   // Create connection
   $stmt->execute();
 
-  echo '<script>alert("Funcionó")</script>';;
+  echo '<script>alert("Funcionó")</script>';
 ?>
